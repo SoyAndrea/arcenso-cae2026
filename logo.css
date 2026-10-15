@@ -1,0 +1,28 @@
+.reveal .slide-logo {
+  display: block;
+  position: fixed;
+  bottom: 10px;         /* Posiciona a 10px del borde inferior */
+  right: 15px;          /* Posiciona a 15px del borde derecho */
+  top: unset !important;  /* Asegura que no se aplique el top */
+  left: unset !important;
+  width: 150px !important;
+  height: 80px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+
+.arg-title1:is(.slide-background){ 
+  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('assets/1.png'); 
+  background-size:cover;  
+  background-position:center; 
+  background-repeat:no-repeat; }
+
+/*.reveal .backgrounds .slide-background {
+  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("assets/1.png");
+  background-size: 100% 100%, 95% auto;
+  background-position: center;*/
+} */
+
+
+

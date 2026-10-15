@@ -1,0 +1,58 @@
+/*-- scss:defaults --*/
+
+// Google Font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+// Colores principales
+$body-bg: #FEFEFE !default;
+$body-color: #23395B !default;
+$link-color: #005f73 !default;
+$input-panel-bg: #ffffff !default;
+
+// Código
+$code-color: #00679e !default;
+$code-block-font-size: 0.7em;
+
+// Tipografías
+$font-family-sans-serif: 'Montserrat', Arial, sans-serif !default;
+$presentation-heading-font: $font-family-sans-serif;
+
+
+/*-- scss:rules --*/
+
+// Títulos
+.reveal h1 {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.reveal h2 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.reveal h3 {
+  font-weight: 600;
+}
+
+// Texto
+.reveal p,
+.reveal li {
+  font-weight: 400;
+}
+
+// Subtítulo de la portada
+#title-slide .subtitle {
+  /*font-size: 1.2em;*/
+  font-weight: 800;
+}
+
+// Citas
+.reveal blockquote,
+.reveal blockquote p {
+  color: #005f73 !important;
+}
+
+.reveal blockquote {
+  border-left: 4px solid #005f73 !important;
+}
