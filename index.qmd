@@ -41,7 +41,7 @@ Su objetivo es **facilitar el acceso y la reutilización de datos oficiales de l
 
 Proyecto desarrollado con el apoyo del Programa de Campeones de rOpenSci (2023–2024).
 
-![](images/icon_lettering_color.svg){width="10%" fig-align="center"} 
+![](images/icon_lettering_color.svg){width=120px fig-align="center"} 
 
 
 ## El trabajo detrás de los datos
@@ -51,7 +51,7 @@ Proyecto desarrollado con el apoyo del Programa de Campeones de rOpenSci (2023�
 
 > Antes de responder un problema de investigación, necesitamos que los datos sean utilizables
 
-## Objetivos
+## Objetivo
 
 > Disponibilidad: de excel a **tablas ordenadas** en R
 
@@ -108,7 +108,7 @@ Principios que orientan la organización y reutilización de los datos censales.
 ![](images/R.png)
 <br>
 
-![](images/github.png)
+![](images/github_logo.png)
 
 :::
 
@@ -130,8 +130,9 @@ Principios que orientan la organización y reutilización de los datos censales.
 
 ::: 
 
-## `ARcenso` en R
+# `ARcenso` en R
 
+##
 
 ### Funciones principales
 
@@ -193,5 +194,15 @@ knitr::include_url("https://soyandrea.github.io/arcenso/articles/indicadores_dem
 :::::
 ::::::
 
+##  
 
-# Gracias :grin:
+<div style="
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  height: 100%;
+">
+  <h1 style="margin: 0; font-family: 'Montserrat', sans-serif;">Gracias</h1>
+  <img src="images/hex.png" style="width: 150px;">
+</div>
