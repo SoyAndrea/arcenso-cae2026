@@ -136,12 +136,6 @@ Principios que orientan la organización y reutilización de los datos censales.
 
 ### Funciones principales
 
-
-```{r}
-#| include: false
-library(arcenso)
-```
-
 - `check_repository()`: Verificar tablas disponibles según año, ubicación geográfica o temática
 
 
